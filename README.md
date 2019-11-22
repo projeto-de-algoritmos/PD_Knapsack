@@ -1,6 +1,6 @@
 # PD_Knapsack
 
-**Número da Lista**: 5
+**Número da Lista**: 5<br>
 **Conteúdo da Disciplina**: Programação Dinâmica
 
 ## Alunos
