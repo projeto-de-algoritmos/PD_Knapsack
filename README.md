@@ -1,26 +1,32 @@
 # PD_Knapsack
 
-**Número da Lista**: 5<br>
+**Número da Lista**: 5 <br>
 **Conteúdo da Disciplina**: Programação Dinâmica
 
 ## Alunos
+
 |Matrícula|Nome|GitHub|
 |---------|----|------|
-|160006210| Francisco Heronildo|[@FranciscoHeronildo](github.com/FranciscoHeronildo)|
-|160010195| João Vítor Morandi|[@joaovitorml](github.com/joaovitorml)|
+|16/0006210|Francisco Heronildo|[@FranciscoHeronildo](github.com/FranciscoHeronildo)|
+|16/0010195|João Vítor Morandi|[@joaovitorml](github.com/joaovitorml)|
 
-## Sobre 
-Descreva os objetivos do seu projeto e como ele funciona. 
+## Sobre
+
+Descreva os objetivos do seu projeto e como ele funciona.
 
 ## Screenshots
+
 Adicione 3 ou mais screenshots do projeto em funcionamento.
 
-## Instalação 
-**Linguagem**: Python
-Descreva os pré-requisitos para rodar o seu projeto e os comandos necessários.
+## Instalação
 
-## Uso 
-Explique como usar seu projeto caso haja algum passo a passo após o comando de execução.
+**Linguagem**: Python 3.
 
-## Outros 
-Quaisquer outras informações sobre seu projeto podem ser descritas abaixo.
+## Uso
+
+Clone o Repositório:
+`$ git clone https://github.com/projeto-de-algoritmos/PD_Knapsack.git` </br>
+Acesse o diretório:
+`$ cd PD_Knapsack` </br>
+Execute:
+`$ python3 knapsack.py` </br>
