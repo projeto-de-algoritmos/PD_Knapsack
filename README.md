@@ -12,11 +12,11 @@
 
 ## Sobre
 
-Descreva os objetivos do seu projeto e como ele funciona.
+O Knapsack, trata-se de um algoritmo de otimização combinatória, com o intuito de preencher a Knapsack com o maior valor possivel, não ultrapassando o peso maximo da Knapsack.
 
 ## Screenshots
 
-Adicione 3 ou mais screenshots do projeto em funcionamento.
+![Imgur](https://i.imgur.com/bSTPjuJ.png)
 
 ## Instalação
 
@@ -30,3 +30,13 @@ Acesse o diretório:
 `$ cd PD_Knapsack` </br>
 Execute:
 `$ python3 knapsack.py` </br>
+
+## Outros
+
+### Tempo de Execução
+
+|Tamanho do Vetor|Tempo|
+|----------------|-----|
+|01|3.4809112548828125e-05|
+|02|8.702278137207031e-05|
+|03|4.029273986816406e-05|

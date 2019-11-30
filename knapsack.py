@@ -4,10 +4,11 @@ import time
 taken = [[0 for x in range(100) for y in range(100)]]
 
 def knapsack(pesoLim, pesos, valores, n):
+
     global taken
     i = 0
     w = 0
-    K = [[0 for x in range(100000) for y in range(100000)]]
+    K = [[0 for x in range(1000) for y in range(1000)]]
     while(i<n):
         while(w<pesoLim):
             if(i==0 or w==0):
@@ -19,12 +20,10 @@ def knapsack(pesoLim, pesos, valores, n):
             else:
                 K[i][w] = K[i-1][w]
             w+=1
-            print('sei la')
         i+=1
-        print('uwu')
 
     print("Valor da mochila = ")
-    print(K[n][pesoLim])
+    print (K[n][pesoLim])
     res = K[n][pesoLim]
     w = pesoLim    
     i = n
@@ -38,9 +37,6 @@ def knapsack(pesoLim, pesos, valores, n):
             res = res - valores[i-1]
             w = w - pesos[i-1]
         i-=1
-
-# memset(taken, false, sizeof taken)
-
 
 valores = []
 pesos = []
@@ -61,7 +57,7 @@ if(size < 20):
 if(size<100):
     i=0
     while(i<size):
-        pesos.append(random.randint(0,1000))
+        pesos.append(random.randint(0,100))
         i+=1
 
 if(size < 20):
@@ -73,8 +69,9 @@ pesoLim = int(input())
 n = len(valores)
 
 inicio = time.time()
+
 knapsack(pesoLim, pesos, valores, n)
+
 fim = time.time()
 
-print('Tempo de execucao: ', fim - inicio)
-print('\n')
+print('Tempo de Execucao: ', fim - inicio)
